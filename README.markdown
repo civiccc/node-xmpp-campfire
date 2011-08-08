@@ -8,10 +8,18 @@ Requires an XMPP (Jabber) client and hosted account. Google accounts will work w
 ## Running the gateway
 
 - Make sure there is a DNS SRV record for your gateway host (see below)
+- Clone repository:
+
+        git clone https://github.com/causes/node-xmpp-campfire.git
+        git submodule update --init
+    
 - Install dependencies:
-    npm install node-stringprep node-xmpp step
+
+        npm install node-stringprep node-xmpp step
+      
 - Start the server with the gateway's domain:
-    node xmpp-campfire.js campfire.example.com
+
+        node xmpp-campfire.js campfire.example.com
 
 
 ## Using the gateway
