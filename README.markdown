@@ -34,7 +34,7 @@ Requires an XMPP (Jabber) client and hosted account. Google accounts will work w
 
 ## DNS SRV records
 
-node-xmpp-capfire requires xmpp-server DNS SRV records for both your XMPP host and the gateway host.
+node-xmpp-capfire requires xmpp-server [DNS SRV records](http://en.wikipedia.org/wiki/SRV_record) for both your XMPP host and the gateway host.
 
 Examples:
 
