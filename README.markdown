@@ -28,8 +28,7 @@ Requires an XMPP (Jabber) client and hosted account. Google accounts will work w
 
 - Room: &lt;Campfire account&gt;+&lt;Campfire room&gt; (e.g. "mycompany+myroom")
 - Server: &lt;Gateway domain&gt;
-- Nickname: &lt;Campfire username (unless using token)&gt;
-- Password: &lt;Campfire password or API authentication token&gt;
+- Password: &lt;Campfire username&gt;:&lt;Password&gt; OR &lt;Campfire API authentication token (recommended)&gt;
 
 
 ## DNS SRV records
